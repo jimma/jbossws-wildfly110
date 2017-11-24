@@ -34,7 +34,7 @@
   <description>JBossWS WildFly 11.0.0.Final Integration Parent</description>
   <groupId>org.jboss.ws</groupId>
   <artifactId>jbossws-wildfly1100-parent</artifactId>
-  <version>5.2.1-SNAPSHOT</version>
+  <version>6.0.0-SNAPSHOT</version>
   <packaging>pom</packaging>
 
   <scm>
@@ -49,9 +49,9 @@
   </modules>
 
   <properties>
-    <jbossws.api.version>1.1.0.Final</jbossws.api.version>
-    <jbossws.spi.version>3.2.0.Final</jbossws.spi.version>
-    <jbossws.common.version>3.2.0.Final</jbossws.common.version>
+    <jbossws.api.version>1.2.0-SNAPSHOT</jbossws.api.version>
+    <jbossws.spi.version>4.0.0-SNAPSHOT</jbossws.spi.version>
+    <jbossws.common.version>4.0.0-SNAPSHOT</jbossws.common.version>
     <jboss.msc.version>1.2.7.Final</jboss.msc.version>
     <wildfly.version>11.0.0.Final</wildfly.version>
     <wildfly.client.config.version>1.0.0.Final</wildfly.client.config.version>
