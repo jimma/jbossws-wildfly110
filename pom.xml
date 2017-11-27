@@ -74,6 +74,7 @@
     <javax.json.version>1.0.4</javax.json.version>
     <jboss.logging.tools.version>1.2.0.Final</jboss.logging.tools.version>
     <junit.version>4.11</junit.version>
+    <version.javax.enterprise>1.2</version.javax.enterprise>
   </properties>
 
   <dependencyManagement>
@@ -200,6 +201,12 @@
       </dependency>
 
       <dependency>
+        <groupId>org.wildfly</groupId>
+        <artifactId>wildfly-weld</artifactId>
+        <version>${wildfly.version}</version>
+      </dependency>
+
+      <dependency>
         <groupId>org.wildfly.client</groupId>
         <artifactId>wildfly-client-config</artifactId>
         <version>${wildfly.client.config.version}</version>
@@ -314,6 +321,12 @@
         <version>${jboss.jaxws.api.version}</version>
         <scope>provided</scope>
       </dependency>
+
+      <dependency>
+        <groupId>javax.enterprise</groupId>
+        <artifactId>cdi-api</artifactId>
+        <version>${version.javax.enterprise}</version>
+     </dependency>
 
       <dependency>
         <groupId>org.jboss.xnio</groupId>
